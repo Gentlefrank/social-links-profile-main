@@ -55,13 +55,16 @@ body {
 
 .container {
      padding: 10px;
-     display: flex;
-     justify-content: center;
-     align-items: center;
-     height: 100vh;
      
 }
- 
+.row{
+  display: flex;
+  flex-wrap: wrap;
+  margin: -10px;
+  height: 100vh;
+  justify-content: center;
+  align-items: center;
+}
 
 .card {
     position: relative;
