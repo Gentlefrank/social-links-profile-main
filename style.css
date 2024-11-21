@@ -1,0 +1,112 @@
+/* MY CSS  */
+
+[class*="col-"]{
+    box-sizing: border-box;
+    width: 100%;
+    padding: 20px;
+}
+
+/* For mobile phones */
+@media only screen and (min-width:600px) {
+    .col-sl-1 {width: 8.33%;}
+    .col-sl-2 {width: 16.66%;}
+    .col-sl-3 {width: 25%;}
+    .col-sl-4 {width: 33.33%;}
+    .col-sl-5 {width: 41.66%;}
+    .col-sl-6 {width: 50%;}
+    .col-sl-7 {width: 58.33%;}
+    .col-sl-8 {width: 66.66%;}
+    .col-sl-9 {width: 75%;}
+    .col-sl-10 {width: 83.33%;}
+    .col-sl-11 {width: 91.66%;}
+    .col-sl-12 {width: 100%;}
+    
+}
+/* For tablets and laptops */
+@media only screen and (min-width:768px) {
+    .col-m-1 {width: 8.33%;}
+    .col-m-2 {width: 16.66%;}
+    .col-m-3 {width: 25%;}
+    .col-m-4 {width: 33.33%;}
+    .col-m-5 {width: 41.66%;}
+    .col-m-6 {width: 50%;}
+    .col-m-7 {width: 58.33%;}
+    .col-m-8 {width: 66.66%;}
+    .col-m-9 {width: 75%;}
+    .col-m-10 {width: 83.33%;}
+    .col-m-11 {width: 91.66%;}
+    .col-m-12 {width: 100%;}
+    
+}
+/* Base Styles: For mobile-first design, start with the smallest screen size */
+body {
+    font-family: "Inter", sans-serif;
+    font-size: 14px; /* Default styles here */
+    background-color: hsl(0, 0%, 8%);
+    color: white;
+    line-height: 1.5;
+  }
+ 
+
+
+*{
+    margin: 0;
+}
+
+.container {
+     padding: 10px;
+    
+}
+.row{
+  display: flex;
+  flex-wrap: wrap;
+  margin: -10px;
+}
+
+.card {
+    position: relative;
+    text-align: center;
+    margin: auto;
+    background-color: hsl(0, 0%, 12%);
+    height: 500px;
+    padding: 40px;
+    border-radius: 10px;
+     
+}
+.card-header{
+    position: relative;
+    min-height: 40%;
+     
+}
+.card-header img{
+    border-radius: 100px;
+}
+.card-header p{
+    color: hsl(75, 94%, 57%);
+     
+}
+.card-header h2{
+    font-weight: 700;
+     
+}
+.card-body{
+    position: relative;
+    height: 60%;
+
+}
+
+.card-body button{
+    width: 100%;
+    padding: 10px;
+    border-radius: 10px;
+    background-color: hsl(0, 0%, 20%);
+    color: white;
+    border: none;
+}
+
+ 
+
+.card-body a :hover {
+    background-color: hsl(75, 94%, 57%) ;
+    color: black;
+}
